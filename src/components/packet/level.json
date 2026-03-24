@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_packet_levels",
+  "info": {
+    "displayName": "Level",
+    "icon": "layer",
+    "description": "A level within a packet"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "individualPrice": {
+      "type": "decimal",
+      "required": true,
+      "default": 0
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "whatYouWillLearn": {
+      "type": "component",
+      "repeatable": true,
+      "component": "packet.pointer"
+    },
+    "mentors": {
+      "type": "component",
+      "repeatable": true,
+      "component": "packet.mentor"
+    },
+    "courses": {
+      "type": "component",
+      "repeatable": true,
+      "component": "packet.course"
+    }
+  }
+}

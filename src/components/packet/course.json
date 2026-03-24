@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_packet_courses",
+  "info": {
+    "displayName": "Course",
+    "icon": "play",
+    "description": "A course within a level"
+  },
+  "options": {},
+  "attributes": {
+    "courseName": {
+      "type": "string",
+      "required": true
+    },
+    "isFree": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "modules": {
+      "type": "component",
+      "repeatable": true,
+      "component": "packet.module"
+    },
+    "courseDuration": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

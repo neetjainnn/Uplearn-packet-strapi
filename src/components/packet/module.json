@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_packet_modules",
+  "info": {
+    "displayName": "Module",
+    "icon": "book",
+    "description": "A module within a course"
+  },
+  "options": {},
+  "attributes": {
+    "moduleName": {
+      "type": "string",
+      "required": true
+    },
+    "moduleDuration": {
+      "type": "integer",
+      "required": true,
+      "min": 0,
+      "default": 0
+    }
+  }
+}

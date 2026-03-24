@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_packet_pointers",
+  "info": {
+    "displayName": "Pointer",
+    "icon": "bulletList",
+    "description": "A text pointer/bullet point"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
